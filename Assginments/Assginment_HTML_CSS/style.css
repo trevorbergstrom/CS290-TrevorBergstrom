@@ -1,0 +1,34 @@
+div.outer-content{
+	background-color: pink;
+	margin-top: 20px;
+	width: 75%;
+	padding: 20px;
+}
+
+div.inner-content {
+	background-color: blue;
+	width: 75%;
+	height: 50px;
+	position: relative;
+	margin: 0 auto;
+}
+
+thead {
+	background-color: #60a4f2;
+}
+
+table {
+	width: 600px;
+}
+td {
+	text-align: right;
+}
+td.foot {
+	text-align: left;
+}
+tr.even {
+	background-color: #60f274;
+}
+tr.odd {
+	background-color: #60edf2;
+}
