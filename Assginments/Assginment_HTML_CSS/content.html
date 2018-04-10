@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CS290 Assginment 1 - Trevor Bergstrom</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<table border = '1'>
+	<caption>This is a distance table to cities in the northwestern United States</caption>
+	<thead>
+		<th></th>
+		<th>Seattle</th>
+		<th>Portland</th>
+		<th>Spokane</th>
+		<th>Boise</th>
+		<th>Bend</th>
+	</thead>
+	<tbody>
+		<tr class="even">
+			<td><i>Seattle</i></td>
+			<td>0.0</td>
+			<td>173.9</td>
+			<td>278.9</td>
+			<td>495.4</td>
+			<td>327.9</td>
+		</tr>
+		<tr class="odd">
+			<td><i>Portland</i></td>
+			<td>173.9</td>
+			<td>0.0</td>
+			<td>350.8</td>
+			<td>429.0</td>
+			<td>162.2</td>
+		</tr>
+		<tr class="even">
+			<td><i>Spokane</i></td>
+			<td>278.9</td>
+			<td>350.8</td>
+			<td>0.0</td>
+			<td>420.9</td>
+			<td>385.1</td>
+		</tr>
+		<tr class="odd">
+			<td><i>Spokane</i></td>
+			<td>495.4</td>
+			<td>429.0</td>
+			<td>420.9</td>
+			<td>0.0</td>
+			<td>318.2</td>
+		</tr>
+		<tr class="even">
+			<td><i>Bend</i></td>
+			<td>327.9</td>
+			<td>162.2</td>
+			<td>385.1</td>
+			<td>318.2</td>
+			<td>0.0</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td class="foot" colspan="2">All Distances in Miles</td>
+			<td class="foot" colspan="4">All Distances are Estimations</td>
+		</tr>
+	</tfoot>
+</table>
+<ol>
+	<li>Driving</li> 
+		<ul>
+			<li>Slow</li>
+			<li>Cheap</li>
+		</ul>
+	<li>Train</li> 
+		<ul>
+			<li>Medium Slow</li>
+			<li>Medium Expensive</li>
+		</ul>
+	<li>Airplane</li>
+		<ul>
+			<li>Fast</li>
+			<li>Expensive</li>
+		</ul>
+</ol>
+
+<div class = "outer-content"> <div class = "inner-content"></div></div>
+<fieldset>
+	<legend>GET Data</legend>
+	<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+		<p>Text input: <input type="text" name="text_input"></p>
+		<p>Number input: <input type="Number" name="numerical_input"></p>
+		<p>Password input: <input type="Password" name="password_input"></p>
+		<p>Select your favriote candy: 
+			<br>
+			<input type="radio" name="candy" value="Snickers">Snickers
+			<br>
+			<input type="radio" name="candy" value="Skittles">Skittles
+			<br>
+			<input type="radio" name="candy" value="Mentos">Mentos
+			<br>
+			<input type="submit" value="Submit">
+		</p>
+	</form>
+</fieldset>
+<fieldset>
+	<legend>POST Data</legend>
+	<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+		<p>Text input: <input type="text" name="text_input"></p>
+		<p>Number input: <input type="Number" name="numerical_input"></p>
+		<p>Password input: <input type="Password" name="password_input"></p>
+		<p>Select your favriote candy: 
+			<br>
+			<input type="radio" name="candy" value="Snickers">Snickers
+			<br>
+			<input type="radio" name="candy" value="Skittles">Skittles
+			<br>
+			<input type="radio" name="candy" value="Mentos">Mentos
+			<br>
+			<input type="submit" value="Submit">
+		</p>
+	</form>
+</fieldset>
+</body>
+</html>
